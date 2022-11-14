@@ -1,0 +1,15 @@
+:root {
+	--dark-font: #101828;
+	--light-font: #667085;
+	--cont-grey: #d0d5dd;
+	--cont-ph: #667085;
+}
+
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 780px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 1200px) {
+}
