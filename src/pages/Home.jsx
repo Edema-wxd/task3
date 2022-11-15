@@ -5,13 +5,13 @@ import meta from "../images/metamask.svg";
 import op from "../images/opensea.svg";
 import timg from "../images/timg.png";
 import img1 from "../images/Frame1.png";
-import img2 from "../images/Frame 151-1.png";
-import img3 from "../images/Frame1.png";
-import img4 from "../images/Frame1.png";
-import img5 from "../images/Frame1.png";
-import img6 from "../images/Frame1.png";
-import img7 from "../images/Frame1.png";
-import img8 from "../images/Frame1.png";
+import img2 from "../images/Frame-1.png";
+import img3 from "../images/Frame-2.png";
+import img4 from "../images/Frame-3.png";
+import img5 from "../images/Frame-4.png";
+import img6 from "../images/Frame-5.png";
+import img7 from "../images/Frame-6.png";
+import img8 from "../images/Frame-7.png";
 
 function Home() {
 	return (
