@@ -600,6 +600,14 @@ a {
 }
 
 @media screen and (max-width: 500px) {
+	.header{
+		margin: 15px;
+		gap: 15px;
+	}
+	.cwbtn{
+		line-height: 16px;
+		padding: 7px;
+	}
 	.connect {
 		left: 15%;
 		width: fit-content;
@@ -627,7 +635,7 @@ a {
 	}
 
 	.srchhome {
-		margin-left: 15%;
+		margin-left: 8%;
 		width: 180px;
 	}
 	.srchbtn {
@@ -635,10 +643,10 @@ a {
 	}
 
 	.bb {
-		gap: 25px;
+		gap: 15px;
 	}
 	.bb img {
-		width: 120px;
+		width: 100px;
 	}
 	.hca {
 		font-size: 20px;
@@ -654,7 +662,7 @@ a {
 	}
 
 	.mtnft img {
-		height: 300px;
+		height: 270px;
 	}
 	.mtp {
 		font-size: 16px;
