@@ -25,10 +25,10 @@ function Place() {
 					<p>Cottage</p>
 					<p>Castle</p>
 					<p>Fantasy city</p>
-					<p>Beach</p>
-					<p>Cabins</p>
-					<p>Off-grid</p>
-					<p>Farm</p>
+					<p className="x">Beach</p>
+					<p className="x">Cabins</p>
+					<p className="x">Off-grid</p>
+					<p className="x">Farm</p>
 				</div>
 
 				<input

@@ -9,13 +9,13 @@ function Header() {
 			</Link>
 			<div className="hba">
 				<Link to="/">
-					<p className="hbtn">Home</p>
+					<p className="hbtn y">Home</p>
 				</Link>
 				<Link to="/place">
 					<p className="hbtn">Place to stay</p>
 				</Link>
-				<p className="hbtn">NFTs</p>
-				<p className="hbtn">Community</p>
+				<p className="hbtn x">NFTs</p>
+				<p className="hbtn x">Community</p>
 			</div>
 			<button className="cwbtn">Connect wallet</button>
 		</div>

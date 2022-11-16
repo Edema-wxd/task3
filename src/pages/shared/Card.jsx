@@ -7,10 +7,12 @@ function Card({ children }) {
 			<div className="imgtxt">
 				<div>
 					<p>Desert king</p>
+					<br />
 					<p>2345km away</p>
 				</div>
 				<div className="r">
 					<p className="bld">1MBT per night</p>
+					<br />
 					<p>available for 2 weeks stay</p>
 				</div>
 			</div>

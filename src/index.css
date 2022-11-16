@@ -155,11 +155,12 @@ a {
 
 .card {
 	width: fit-content;
-	height: 340px;
+	height: fit-content;
 	padding: 16px;
 	border: 1px solid #d7d7d7;
 	border-radius: 15px;
-	background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+	background: #ffffff;
+	margin: auto;
 }
 
 .imgtxt {
@@ -295,7 +296,7 @@ a {
 .locarry {
 	display: flex;
 	flex-direction: row;
-	align-items: flex-start;
+	align-items: center;
 	padding: 0px;
 	gap: 45px;
 	margin: auto 150px 75px 100px;
@@ -332,14 +333,302 @@ a {
 	color: #333333;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1300px) {
+	.ttxt h1,
+	.purp {
+		font-size: 42px;
+	}
+
+	.header {
+		margin: 43px 65px 80px;
+	}
+
+	.tt {
+		margin-left: 65px;
+		margin-right: 100px;
+	}
+
+	.srchhome {
+		width: 200px;
+	}
+	.srchbtn {
+		padding: 17px 58px;
+	}
+	.bb {
+		gap: 170px;
+	}
+	.cardarray {
+		margin: auto 24px 53px;
+	}
+	.card {
+		height: fit-content;
+	}
+	.card img {
+		width: 225px;
+	}
+	.imgtxt {
+		gap: 12px;
+		flex-direction: column;
+	}
+
+	.imgtxt p {
+		display: inline-block;
+		width: max-content;
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+	.r {
+		text-align: left;
+	}
+	.mtnft {
+		padding: 100px 50px;
+	}
+	.mtnft img {
+		height: 480px;
+	}
+	.locarry {
+		margin: auto 30px 30px;
+	}
+	.la {
+		gap: 25px;
+	}
+}
+@media screen and (max-width: 1124px) {
+	.header {
+		margin: 43px 30px 80px;
+	}
+	.footer {
+		padding: 58px 113px 37px 50px;
+	}
+	.cardarray {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-areas:
+			". . ."
+			". . .";
+	}
+	.la {
+		font-size: 16px;
+	}
+	.lcsrch {
+		padding: 10px;
+	}
+	.cwbtn {
+		height: fit-content;
+		width: fit-content;
+	}
+	.hbtn {
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.header img {
+		width: 212px;
+		margin-top: 10px;
+	}
+
+	.locarry {
+		justify-content: space-between;
+	}
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
+	.tt {
+		margin: auto;
+		gap: 50px;
+	}
+	.ttxt {
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+	.ttxt h1,
+	.purp {
+		font-size: 32px;
+	}
+	.tt img {
+		width: 325px;
+	}
+
+	.ttpt {
+		line-height: 20px;
+		font-size: 16px;
+	}
+
+	.srchhome {
+		width: 180px;
+	}
+	.srchbtn {
+		padding: 17px 40px;
+	}
+
+	.bb {
+		gap: 100px;
+	}
+	.bb img {
+		width: 150px;
+	}
+	.hca {
+		font-size: 30px;
+	}
+	.mtnft {
+		padding: 50px 35px;
+	}
+	.mtnfttxt h4 {
+		font-size: 32px;
+		line-height: 48px;
+	}
+
+	.mtnft img {
+		height: 300px;
+	}
+	.mtp {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.header {
+		margin: 25px;
+		gap: 20px;
+	}
+
+	.header img {
+		width: 150px;
+	}
+	.hbtn {
+		font-weight: 400;
+	}
+	.x {
+		display: none;
+	}
+	.cardarray {
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			". ."
+			". .";
+	}
+	.la {
+		gap: 15px;
+		font-size: 15px;
+	}
+
+	.locarry {
+		gap: 25px;
+	}
+	.lcsrch {
+		width: 250px;
+	}
+
+	.footer {
+		padding: 50px;
+	}
+	.footer img {
+		max-width: 200px;
+	}
+	.com {
+		gap: 4px;
+	}
+	.social {
+		gap: 50px;
+	}
 }
 
-@media screen and (max-width: 1024px) {
-}
+@media screen and (max-width: 500px) {
+	.tt {
+		flex-direction: column-reverse;
+		margin: auto;
+		gap: 10px;
+	}
+	.ttxt {
+		margin: 10px;
+	}
+	.ttxt h1,
+	.purp {
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.tt img {
+		width: 300px;
+	}
 
-@media screen and (max-width: 1200px) {
+	.ttpt {
+		line-height: 18px;
+		font-size: 14px;
+	}
+
+	.srchhome {
+		margin-left: 15%;
+		width: 180px;
+	}
+	.srchbtn {
+		padding: 17px 40px;
+	}
+
+	.bb {
+		gap: 25px;
+	}
+	.bb img {
+		width: 120px;
+	}
+	.hca {
+		font-size: 20px;
+	}
+	.mtnft {
+		flex-direction: column-reverse;
+		gap: 15px;
+		padding: 25px 15px;
+	}
+	.mtnfttxt h4 {
+		font-size: 32px;
+		line-height: 48px;
+	}
+
+	.mtnft img {
+		height: 300px;
+	}
+	.mtp {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.y {
+		display: none;
+	}
+	.cardarray {
+		grid-template-columns: 1fr;
+		grid-template-areas:
+			"."
+			".";
+	}
+	.card img {
+		width: 200px;
+	}
+
+	.locarry {
+		flex-direction: column;
+	}
+
+	.footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			". ."
+			". .";
+		padding: 25px;
+		column-gap: 45px;
+		row-gap: 15px;
+	}
+	.footer img {
+		max-width: 150px;
+	}
+	.com {
+		gap: 4px;
+	}
+	.social {
+		gap: 30px;
+	}
+	.hba {
+		gap: 0px;
+	}
+	.hbtn {
+		width: max-content;
+	}
 }
