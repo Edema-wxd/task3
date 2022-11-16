@@ -35,6 +35,7 @@ function Home() {
 						id=""
 						placeholder="Search for location"
 					/>
+					<button className="srchbtn">Search</button>
 				</div>
 				<div className="ttimg">
 					<img src={timg} alt="" />

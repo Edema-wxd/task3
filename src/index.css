@@ -104,10 +104,23 @@ a {
 	border: 1px solid #a3a3a3;
 	border-radius: 8px 0px 0px 8px;
 	padding-left: 15px;
-	padding-top: 19px;
-	padding-bottom: 20px;
-	height: 14px;
+	padding-top: 18px;
+	padding-bottom: 17px;
 	width: 375px;
+}
+
+.srchbtn {
+	font-family: "Red Rose";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	color: #ffffff;
+	background: #a02279;
+	border-radius: 0px 8px 8px 0px;
+	padding: 17px 87px;
+	border: 1px solid #000000;
 }
 
 .bb {
@@ -277,6 +290,46 @@ a {
 	gap: 16px;
 	justify-content: space-between;
 	color: #f1f3f9;
+}
+
+.locarry {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 45px;
+	margin: auto 150px 75px 100px;
+}
+
+.la {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0px;
+	gap: 48px;
+	font-family: "Red Rose";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	color: #434343;
+}
+
+.la p {
+	width: max-content;
+}
+
+.lcsrch {
+	background: #ffffff;
+	border: 1px solid #b4b4b4;
+	border-radius: 8px;
+	padding: 14px;
+	font-family: "Red Rose";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #333333;
 }
 
 @media screen and (max-width: 480px) {
