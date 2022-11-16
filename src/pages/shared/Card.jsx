@@ -9,7 +9,7 @@ function Card({ children }) {
 					<p>Desert king</p>
 					<p>2345km away</p>
 				</div>
-				<div>
+				<div className="r">
 					<p className="bld">1MBT per night</p>
 					<p>available for 2 weeks stay</p>
 				</div>

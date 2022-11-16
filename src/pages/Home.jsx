@@ -20,7 +20,7 @@ function Home() {
 				<div className="ttxt">
 					<h1>
 						Rent a <span className="purp">Place</span> away from
-						<span className="purp">Home</span> in the{" "}
+						<span className="purp"> Home</span> in the{" "}
 						<span className="purp">Metaverse</span>
 					</h1>
 					<p className="ttpt">
@@ -29,6 +29,7 @@ function Home() {
 						comfort zone
 					</p>
 					<input
+						className="srchhome"
 						type="search"
 						name=""
 						id=""
